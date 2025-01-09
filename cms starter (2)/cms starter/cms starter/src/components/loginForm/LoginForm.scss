@@ -1,0 +1,38 @@
+@import "../../colors.scss";
+
+.LoginForm-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: $blackWashy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: $techniColor;
+    border: 2px solid $white;
+
+    input {
+      padding: 6px 10px;
+      border: none;
+      margin-bottom: 20px;
+    }
+
+    button {
+      border: none;
+      border-radius: 6px;
+
+      &:hover {
+        background: lightgreen;
+      }
+    }
+  }
+}

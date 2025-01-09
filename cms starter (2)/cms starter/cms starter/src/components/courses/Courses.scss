@@ -1,0 +1,12 @@
+@import "../../colors.scss";
+@import "../../mixins.scss";
+
+.box-info {
+  h2 {
+    background: $pink;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+  }
+}

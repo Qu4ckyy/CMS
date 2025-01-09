@@ -1,0 +1,49 @@
+@import "./../../colors.scss";
+
+.dashboard-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  .settings {
+    background: $black;
+    padding: 20px;
+
+    header {
+      display: flex;
+      align-items: center;
+    }
+
+    h2 {
+      color: $white;
+      margin: 0;
+    }
+
+    button {
+      padding: 6px 10px;
+      border: none;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin-top: 20px;
+      margin-bottom: 16px;
+      width: 150px;
+    }
+    button {
+      background: blue;
+      margin-bottom: 16px;
+      width: 70px;
+    }
+  }
+  .LogOut {
+    button {
+      background: red;
+    }
+  }
+}
